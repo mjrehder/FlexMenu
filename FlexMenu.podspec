@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
   s.name             = 'FlexMenu'
-  s.version          = '1.0'
+  s.version          = '1.0.1'
   s.license          = 'MIT'
-  s.summary          = 'Flexible slider components with style'
+  s.summary          = 'Flexible menu components with style'
   s.homepage         = 'https://github.com/mjrehder/FlexMenu.git'
   s.authors          = { 'Martin Jacob Rehder' => 'gitrepocon01@rehsco.com' }
   s.source           = { :git => 'https://github.com/mjrehder/FlexMenu.git', :tag => s.version }
