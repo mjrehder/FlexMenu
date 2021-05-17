@@ -12,8 +12,6 @@
 		6903A3F226481E8C0020350C /* FlexMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 6903A3E426481E8C0020350C /* FlexMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6903A3FE2648209B0020350C /* FlexMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3FB2648209B0020350C /* FlexMenu.swift */; };
 		6903A3FF2648209B0020350C /* FlexMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3FB2648209B0020350C /* FlexMenu.swift */; };
-		6903A4002648209B0020350C /* FlexSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3FC2648209B0020350C /* FlexSwitch.swift */; };
-		6903A4012648209B0020350C /* FlexSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3FC2648209B0020350C /* FlexSwitch.swift */; };
 		6903A4022648209B0020350C /* FlexMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3FD2648209B0020350C /* FlexMenuItem.swift */; };
 		6903A4032648209B0020350C /* FlexMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3FD2648209B0020350C /* FlexMenuItem.swift */; };
 		7698DE35D5276A172FBA8153 /* Pods_FlexMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA1DFD840041895606E1DCC /* Pods_FlexMenu.framework */; };
@@ -41,7 +39,6 @@
 		6903A3EF26481E8C0020350C /* FlexMenuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlexMenuTests.swift; sourceTree = "<group>"; };
 		6903A3F126481E8C0020350C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6903A3FB2648209B0020350C /* FlexMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexMenu.swift; sourceTree = "<group>"; };
-		6903A3FC2648209B0020350C /* FlexSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexSwitch.swift; sourceTree = "<group>"; };
 		6903A3FD2648209B0020350C /* FlexMenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexMenuItem.swift; sourceTree = "<group>"; };
 		6CA1DFD840041895606E1DCC /* Pods_FlexMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE80ADEA12BE813EB17630CB /* Pods_FlexMenu_FlexMenuTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexMenu_FlexMenuTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,7 +100,6 @@
 			children = (
 				6903A3FB2648209B0020350C /* FlexMenu.swift */,
 				6903A3FD2648209B0020350C /* FlexMenuItem.swift */,
-				6903A3FC2648209B0020350C /* FlexSwitch.swift */,
 				6903A3E426481E8C0020350C /* FlexMenu.h */,
 				6903A3E526481E8C0020350C /* Info.plist */,
 			);
@@ -306,7 +302,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6903A4002648209B0020350C /* FlexSwitch.swift in Sources */,
 				6903A3FE2648209B0020350C /* FlexMenu.swift in Sources */,
 				6903A4022648209B0020350C /* FlexMenuItem.swift in Sources */,
 			);
@@ -318,7 +313,6 @@
 			files = (
 				6903A4032648209B0020350C /* FlexMenuItem.swift in Sources */,
 				6903A3F026481E8C0020350C /* FlexMenuTests.swift in Sources */,
-				6903A4012648209B0020350C /* FlexSwitch.swift in Sources */,
 				6903A3FF2648209B0020350C /* FlexMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -475,7 +469,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rehsco.FlexMenu;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -505,7 +499,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.0.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rehsco.FlexMenu;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -519,7 +513,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 36750DC843A0FF071D639819 /* Pods-FlexMenu-FlexMenuTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "${inherited}";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V7Y9TF9C7U;
 				INFOPLIST_FILE = FlexMenuTests/Info.plist;
@@ -539,7 +533,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3CF924DEA29792479D33D707 /* Pods-FlexMenu-FlexMenuTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "${inherited}";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V7Y9TF9C7U;
 				INFOPLIST_FILE = FlexMenuTests/Info.plist;

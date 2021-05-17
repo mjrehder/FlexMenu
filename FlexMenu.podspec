@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FlexMenu'
-  s.version          = '1.0.1'
+  s.version          = '1.0.2'
   s.license          = 'MIT'
   s.summary          = 'Flexible menu components with style'
   s.homepage         = 'https://github.com/mjrehder/FlexMenu.git'
