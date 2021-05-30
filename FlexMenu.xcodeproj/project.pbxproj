@@ -14,6 +14,8 @@
 		6903A3FF2648209B0020350C /* FlexMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3FB2648209B0020350C /* FlexMenu.swift */; };
 		6903A4022648209B0020350C /* FlexMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3FD2648209B0020350C /* FlexMenuItem.swift */; };
 		6903A4032648209B0020350C /* FlexMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6903A3FD2648209B0020350C /* FlexMenuItem.swift */; };
+		69F8DF2A26637BF60053FD1F /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69F8DF2926637BF60053FD1F /* Media.xcassets */; };
+		69F8DF2B26637BF60053FD1F /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69F8DF2926637BF60053FD1F /* Media.xcassets */; };
 		7698DE35D5276A172FBA8153 /* Pods_FlexMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CA1DFD840041895606E1DCC /* Pods_FlexMenu.framework */; };
 		DF7A0C545138BF508FD993A2 /* Pods_FlexMenu_FlexMenuTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE80ADEA12BE813EB17630CB /* Pods_FlexMenu_FlexMenuTests.framework */; };
 /* End PBXBuildFile section */
@@ -40,6 +42,7 @@
 		6903A3F126481E8C0020350C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6903A3FB2648209B0020350C /* FlexMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexMenu.swift; sourceTree = "<group>"; };
 		6903A3FD2648209B0020350C /* FlexMenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexMenuItem.swift; sourceTree = "<group>"; };
+		69F8DF2926637BF60053FD1F /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		6CA1DFD840041895606E1DCC /* Pods_FlexMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE80ADEA12BE813EB17630CB /* Pods_FlexMenu_FlexMenuTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlexMenu_FlexMenuTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDC116AD0F446A6295DE24D9 /* Pods-FlexMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlexMenu.debug.xcconfig"; path = "Target Support Files/Pods-FlexMenu/Pods-FlexMenu.debug.xcconfig"; sourceTree = "<group>"; };
@@ -101,6 +104,7 @@
 				6903A3FB2648209B0020350C /* FlexMenu.swift */,
 				6903A3FD2648209B0020350C /* FlexMenuItem.swift */,
 				6903A3E426481E8C0020350C /* FlexMenu.h */,
+				69F8DF2926637BF60053FD1F /* Media.xcassets */,
 				6903A3E526481E8C0020350C /* Info.plist */,
 			);
 			path = FlexMenu;
@@ -221,6 +225,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69F8DF2A26637BF60053FD1F /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,6 +233,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69F8DF2B26637BF60053FD1F /* Media.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -469,7 +475,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.2;
+				MARKETING_VERSION = 1.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rehsco.FlexMenu;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -499,7 +505,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.2;
+				MARKETING_VERSION = 1.0.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.rehsco.FlexMenu;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;

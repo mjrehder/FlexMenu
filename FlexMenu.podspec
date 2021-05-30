@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FlexMenu'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.license          = 'MIT'
   s.summary          = 'Flexible menu components with style'
   s.homepage         = 'https://github.com/mjrehder/FlexMenu.git'
@@ -13,5 +13,6 @@ Pod::Spec.new do |s|
 
   s.framework    = 'UIKit'
   s.source_files = 'FlexMenu/**/*.swift'
+  s.resources    = 'FlexMenu/*.xcassets'
   s.requires_arc = true
 end
